@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="BN_Project.jnlp">
+  <information>
+    <title>BN_Project</title>
+    <vendor>golde</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="BN_Project.jar" size="12444" download="eager" />
+    <jar href="lib\JavaFXSmartGraph-0.9.4.jar" size="73362" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="BN_Project" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="bn_project.BN_Project"  name="BN_Project" />
+  <update check="always"/>
+</jnlp>
